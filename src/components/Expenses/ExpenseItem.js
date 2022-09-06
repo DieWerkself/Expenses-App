@@ -2,6 +2,7 @@ import Card from "../UI/Card";
 import ExpenseDate from "./ExpenseDate";
 import s from "./ExpenseItem.module.css";
 import { useState } from "react";
+import ExpensesFilter from "./ExpensesFilter";
 
 const ExpenseItem = (props) => {
   const [title, setTitle] = useState(props.title);
